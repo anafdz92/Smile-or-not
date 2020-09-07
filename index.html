@@ -6,21 +6,21 @@
     <title>Document</title>
     <link rel="stylesheet" href="./styles/style.css" />
   </head>
-  <body class="body">
-    <h1 class="face">:)</h1>
-    <div class="select">
-      <select id="faces" name="faces">
+  <body >
+      <main class="js-container container">
+    <h1 class="js-face face">:)</h1>
+    <form class="select">
+      <select class="faces js-options" name="faces">
         <option value=":)">:)</option>
         <option value=":(">:(</option>
       </select>
 
-      <button
-        id="changeButton"
-        class="changeButton js-search-button"
+      <input
+        class="changeButton js-change-button"
         type="button"
-      >
-        Upload
-      </button>
+        value="Update"
+      />
+    </main>
     </div>
     <script src="./js/main.js"></script>
   </body>
